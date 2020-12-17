@@ -14,4 +14,4 @@ Version: 0.1.0
     A member should have a type (string attribute), a method for fetching their instrument (returning a string) and a method for playing a solo (returning a string).
     To minimize repeated code there will be a master class 'musician' which is inherited by all types of musician (bassist, guitarist, drummer).
 
-## 
+## Approach and Efficiency:
