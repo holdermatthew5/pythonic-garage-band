@@ -132,7 +132,6 @@ def test_band_members(one_band):
 
 @pytest.mark.skip("pending")
 def test_play_solos_for_whole_band(one_band):
-    print(one_band)
     solos = one_band.play_solos()
     assert len(solos) == 3
     assert solos[0] == "face melting guitar solo"
